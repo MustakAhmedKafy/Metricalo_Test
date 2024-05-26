@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main>
+    <div class="container">
+      <div class="col-7">
+        <h2>Checkout</h2>
+        <!-- checkout info -->
+        <div class="bg-light accordion-1">
+          <div class="accordion">
+            <p>1. Shipping Information</p>
+            <img class="accordion-img" src="img/Icon.png" alt="">
+          </div>
+          <div class="panel">
+            <div class="form-container">
+              <div>
+                <label for="">First Name</label>
+                <input type="text" placeholder="Jhon" required>
+              </div>
+              <div>
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Doe" required>
+              </div>
+            </div>
+            <label for="">Address</label>
+            <input type="text" placeholder="Dhaka, Bangladesh" required>
+          </div>
+        </div>
+        <div class="bg-light accordion-2">
+          <div class="accordion">
+            <p>2. Payment</p>
+            <img class="accordion-img" src="img/Icon.png" alt="">
+          </div>
+
+
+          <!-- payment 2 -->
+          <div class="panel payment-section">
+            <div class="payment-method">
+              <h6>Payment method</h6>
+              <div class="method-list">
+                <span><img src="img/Stripe_x42.png" alt=""></span>
+                <span><img src="img/Frame.png" alt=""></span>
+                <span><img src="img/paypal_2_x42.png" alt=""></span>
+                <span><img src="img/visa_x42.png" alt=""></span>
+                <span><img src="img/mastercard_x42.png" alt=""></span>
+              </div>
+            </div>
+            <form>
+              <label for="">Cardholder Name</label>
+              <input type="text" placeholder="Cardholder Name" required>
+              <!--  -->
+              <label for="">Card Number</label>
+              <input type="text" placeholder="Card Number" required>
+              <div class="form-container">
+                <select required>
+                  <option value="" disabled selected>MM/YY</option>
+                  <option value="01/23">01/23</option>
+                  <option value="02/23">02/23</option>
+                  <option value="03/23">03/23</option>
+                </select>
+                <input type="text" placeholder="CVC" required>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+        <button class="submit-btn" type="submit">Pay Now</button>
+        <!-- checkout info end-->
+      </div>
+      <div class="col-5">
+        <div class="testimonial-slider">
+          <div class="slider bg-light">
+            <div class="slider-content">
+              <div class="slide">
+                <p class="author">Ellin Wright</p>
+                <div class="rating">
+                  <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_500_57)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_500_57">
+                          <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_500_57)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_500_57">
+                          <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_500_57)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_500_57">
+                          <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_500_57)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_500_57">
+                          <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_54_685)">
+                      <path
+                        d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                        fill="#F2F4F7" />
+                      <g clip-path="url(#clip1_54_685)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_54_685">
+                        <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                      </clipPath>
+                      <clipPath id="clip1_54_685">
+                        <rect width="10" height="20" fill="white" transform="translate(0.5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                </div>
+                <p class="review">Fantastic service. Friendly, quick and professional. I have no hesitation in
+                  recommending
+                  this company. Thank you.</p>
+              </div>
+              <div class="slide">
+                <p class="author">Ellin Wright</p>
+                <div class="rating">
+                  <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_500_57)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_500_57">
+                          <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_500_57)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_500_57">
+                          <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_500_57)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_500_57">
+                          <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <span><svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_500_57)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                      <defs>
+                        <clipPath id="clip0_500_57">
+                          <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </span>
+                  <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_54_685)">
+                      <path
+                        d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                        fill="#F2F4F7" />
+                      <g clip-path="url(#clip1_54_685)">
+                        <path
+                          d="M10.0383 1.60996C10.2091 1.19932 10.7909 1.19932 10.9617 1.60996L13.0278 6.57744C13.0998 6.75056 13.2626 6.86885 13.4495 6.88383L18.8123 7.31376C19.2556 7.3493 19.4354 7.90256 19.0976 8.19189L15.0117 11.6919C14.8693 11.8139 14.8071 12.0053 14.8506 12.1876L16.0989 17.4208C16.2021 17.8534 15.7315 18.1954 15.3519 17.9635L10.7606 15.1592C10.6006 15.0615 10.3994 15.0615 10.2394 15.1592L5.64806 17.9635C5.26851 18.1954 4.79788 17.8534 4.90108 17.4208L6.14939 12.1876C6.19289 12.0053 6.1307 11.8139 5.98831 11.6919L1.90241 8.19189C1.56464 7.90256 1.74441 7.3493 2.18773 7.31376L7.55054 6.88383C7.73744 6.86885 7.90024 6.75056 7.97225 6.57744L10.0383 1.60996Z"
+                          fill="#FDB022" />
+                      </g>
+                    </g>
+                    <defs>
+                      <clipPath id="clip0_54_685">
+                        <rect width="20" height="20" fill="white" transform="translate(0.5)" />
+                      </clipPath>
+                      <clipPath id="clip1_54_685">
+                        <rect width="10" height="20" fill="white" transform="translate(0.5)" />
+                      </clipPath>
+                    </defs>
+                  </svg>
+
+                </div>
+                <p class="review">Fantastic service. Friendly, quick and professional. I have no hesitation in
+                  recommending
+                  this company. Thank you.</p>
+              </div>
+              <!-- slide end -->
+            </div>
+
+          </div>
+          <button class="prev" onclick="prevSlide()">
+            <img src="img/less.png" alt="Previous">
+          </button>
+          <button class="next" onclick="nextSlide()">
+            <img src="img/greater.png" alt="Next">
+          </button>
+        </div>
+
+        <!-- order summary table -->
+        <div class="order-summary bg-light">
+          <h4>Order Summary</h4>
+          <div class="cost">
+            <span>Today's Cost</span>
+            <span>$200</span>
+          </div>
+          <div class="line"></div>
+          <div class="cost">
+            <span>Total</span>
+            <span>$200</span>
+          </div>
+        </div>
+        <!-- support -->
+        <div class="support">
+          <div class="circle">
+            <img src="img/Headphones.png" alt="">
+          </div>
+          <div class="circle">
+            <img src="img/Vector.png" alt="">
+          </div>
+          <div class="circle">
+            <img src="img/Protection.png" alt="">
+          </div>
+
+        </div>
+        <div class="text">
+          <p>bsbbhelpline.com | bghelper.com | bbbcshelp.com | bbghelpdesk.com will be displayed on your bank statement
+            as a charge from BENSET LIMITED</p>
+          <p>You will be billed by BENSET LIMITED, an e-commerce merchant located in the Cyprus.</p>
+          <p>By completing this purchase, you consent to a 2-day trial membership with bebudget.com for €2, and you
+            acknowledge that unless you cancel within due time, You will be enrolled in the full 10-day membership at
+            the price of €39 every 10 days. If the trial is not cancelled, you will be charged €39 every 10 days until
+            the membership is canceled.</p>
+          <p>All purchases are covered by a 14-day full refund guarentee. The decision to reimburse a charge does
+            not insure the obligation to reimburse other subsequent expenses. Any charge refunded by bebudget.com
+            for any reason, will be refunded by the payment method used for the original transaction. bebudget.com
+            will not credit any cash charges. Any request for refund must be made by contacting customer service.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <div class="footer">
+    <p>bebudget.com 2024. BENSET LIMITED, 439480 - 18A Panteli Katelari, Limassol 3012, Cyprus</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
